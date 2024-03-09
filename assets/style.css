@@ -25,6 +25,7 @@ footer {
     justify-content: center;
     align-items: center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: auto;
 }
 
 .contact {
@@ -40,16 +41,19 @@ li {
     align-items: center;
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 1;
 }
 .pic {
     height: 75px;
     width: 75px;
+    margin: 10;
+    border-radius: 50%;
+    float: left;
 }
 
 .h1 {
     text-align: center;
-    font-size: 2em;
+    font-size: 3em;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-top: 5px;
 }
