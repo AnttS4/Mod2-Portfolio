@@ -1,9 +1,10 @@
 
-
+/* Create Font Family, grey background */
 body {
     background-color: grey;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+/* Adjust header, make nav bar to the top right of page*/
 header {
     display: flex;
     align-items: center;
@@ -19,13 +20,18 @@ nav {
     align-items: center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+main {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 70dvh;
+}
 
+/* Adjust the footer, center and stays at the bottom of the page */
 footer {
     display: flex;
     justify-content: center;
     align-items: center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-top: auto;
+    position: relative;
 }
 
 .contact {
@@ -34,7 +40,7 @@ footer {
     align-items: center;
     margin-top: 20px;
 }
-
+/* Adjust list items */
 li {
     display: inline-flex;
     justify-content: space-between;
@@ -43,6 +49,7 @@ li {
     padding: 0;
     margin: 1;
 }
+/* Adjust the image to be rounded and floats to the left */
 .pic {
     height: 75px;
     width: 75px;
@@ -50,10 +57,29 @@ li {
     border-radius: 50%;
     float: left;
 }
-
+/* Adjust header to be centered */ 
 .h1 {
     text-align: center;
     font-size: 3em;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-top: 5px;
+}
+/* Adjust the footer to remain on the bottom of page */
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.About-Me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.Work {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
 }
